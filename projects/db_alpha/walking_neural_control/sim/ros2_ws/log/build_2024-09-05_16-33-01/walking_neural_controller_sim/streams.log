@@ -1,0 +1,76 @@
+[0.014s] Invoking command in '/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim -- -j22 -l22
+[0.135s] [  4%] [32mBuilding CXX object CMakeFiles/db_beta_controller_sim.dir/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp.o[0m
+[1.567s] In file included from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:5[m[K:
+[1.568s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.h:120:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Joy_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.568s]   120 |     void joyCallback(const sensor_msgs::msg::Joy::ConstPtr& joy[01;35m[K)[m[K;
+[1.568s]       |                                                                [01;35m[K^[m[K
+[1.568s] In file included from [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/joy.hpp:7[m[K,
+[1.568s]                  from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.h:23[m[K:
+[1.568s] [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp:123:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.568s]   123 |     [01;36m[KConstPtr[m[K;
+[1.568s]       |     [01;36m[K^~~~~~~~[m[K
+[1.580s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:[m[K In constructor ‘[01m[KsimRos2Class::[01;32m[KsimRos2Class[m[K(int, char**)[m[K’:
+[1.580s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:39:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[K_argc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.581s]    39 |     int [01;35m[K_argc[m[K = 0;
+[1.581s]       |         [01;35m[K^~~~~[m[K
+[1.581s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:40:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[K_argv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.581s]    40 |     char** [01;35m[K_argv[m[K = NULL;
+[1.581s]       |            [01;35m[K^~~~~[m[K
+[1.581s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:7:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.581s]     7 | simRos2Class::simRos2Class([01;35m[Kint argc[m[K, char *argv[])
+[1.581s]       |                            [01;35m[K~~~~^~~~[m[K
+[1.581s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:7:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.581s]     7 | simRos2Class::simRos2Class(int argc, [01;35m[Kchar *argv[][m[K)
+[1.582s]       |                                      [01;35m[K~~~~~~^~~~~~[m[K
+[1.582s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:[m[K At global scope:
+[1.582s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:142:74:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Joy_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.582s]   142 | void simRos2Class::joyCallback(const sensor_msgs::msg::Joy::ConstPtr& joy[01;35m[K)[m[K{
+[1.582s]       |                                                                          [01;35m[K^[m[K
+[1.582s] [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp:123:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.582s]   123 |     [01;36m[KConstPtr[m[K;
+[1.582s]       |     [01;36m[K^~~~~~~~[m[K
+[1.583s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:[m[K In member function ‘[01m[Kvoid simRos2Class::[01;32m[Kplot[m[K(std::vector<float>)[m[K’:
+[1.583s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:172:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.583s]   172 |     for (int i = 0; [01;35m[Ki <= data.size()[m[K; ++i){
+[1.583s]       |                     [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[1.584s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:[m[K In member function ‘[01m[Kvoid simRos2Class::[01;32m[Kpublish_neuron_activity[m[K(std::vector<float>)[m[K’:
+[1.584s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:184:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.584s]   184 |     for (int i = 0; [01;35m[Ki < data.size()[m[K; ++i)
+[1.584s]       |                     [01;35m[K~~^~~~~~~~~~~~~[m[K
+[1.584s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:[m[K In member function ‘[01m[Kvoid simRos2Class::[01;32m[Kpublish_C_matrix[m[K(std::vector<float>)[m[K’:
+[1.584s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:194:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.584s]   194 |     for (int i = 0; [01;35m[Ki < data.size()[m[K; ++i)
+[1.584s]       |                     [01;35m[K~~^~~~~~~~~~~~~[m[K
+[1.584s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:[m[K In member function ‘[01m[Kvoid simRos2Class::[01;32m[Kpublish_norm_bias[m[K(std::vector<float>)[m[K’:
+[1.585s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:205:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.585s]   205 |     for (int i = 0; [01;35m[Ki < data.size()[m[K; ++i)
+[1.585s]       |                     [01;35m[K~~^~~~~~~~~~~~~[m[K
+[1.585s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:[m[K In member function ‘[01m[Kvoid simRos2Class::[01;32m[Kpublish_norm_gain[m[K(std::vector<float>)[m[K’:
+[1.585s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:215:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.585s]   215 |     for (int i = 0; [01;35m[Ki < data.size()[m[K; ++i)
+[1.585s]       |                     [01;35m[K~~^~~~~~~~~~~~~[m[K
+[11.405s] [  8%] [32m[1mLinking CXX executable /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/bin/db_beta_controller_sim[0m
+[11.830s] [100%] Built target db_beta_controller_sim
+[11.845s] Invoked command in '/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim -- -j22 -l22
+[11.945s] Invoking command in '/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim
+[11.951s] -- Install configuration: ""
+[11.951s] -- Installing: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/lib/walking_neural_controller_sim/db_beta_controller_sim
+[11.966s] -- Set non-toolchain portion of runtime path of "/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/lib/walking_neural_controller_sim/db_beta_controller_sim" to ""
+[11.966s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/launch
+[11.966s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/launch/walking_neural_control_sim.launch
+[11.966s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/ament_index/resource_index/package_run_dependencies/walking_neural_controller_sim
+[11.966s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/ament_index/resource_index/parent_prefix_path/walking_neural_controller_sim
+[11.966s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/environment/ament_prefix_path.sh
+[11.966s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/environment/ament_prefix_path.dsv
+[11.966s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/environment/path.sh
+[11.966s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/environment/path.dsv
+[11.966s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/local_setup.bash
+[11.967s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/local_setup.sh
+[11.967s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/local_setup.zsh
+[11.968s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/local_setup.dsv
+[11.968s] -- Installing: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/package.dsv
+[11.968s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/ament_index/resource_index/packages/walking_neural_controller_sim
+[11.968s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/cmake/walking_neural_controller_simConfig.cmake
+[11.968s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/cmake/walking_neural_controller_simConfig-version.cmake
+[11.969s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/package.xml
+[11.969s] Invoked command in '/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim

@@ -1,0 +1,18 @@
+<!--<?xml version="1.0"?>-->
+
+<launch>
+   <!-- dynamixel node -->
+   
+   <node name="ALPHA_Robot_sim" pkg="walking_neural_controller_sim" type="walking_neural_controller_sim" required="true" output="screen" > </node>
+   <!-- dynamixel node ending -->
+    
+   <!-- Imu node -->    
+   <!-- <node name="imu_euler_converter" pkg="imu_transform" type="imu_transform" required="true" output="screen" > </node>   Imu euler convernter node     -->
+   
+   <!-- Imu node ending -->
+      
+   <!-- Joy node -->    
+<!--   <node name="seg$(arg robot_segment_number)_joy_node" pkg="freelander_2legs_openloop_control_real" type="joystick_teleop_node" required="true" output="screen" > </node> -->
+   <!-- Joy node ending -->    
+</launch>
+

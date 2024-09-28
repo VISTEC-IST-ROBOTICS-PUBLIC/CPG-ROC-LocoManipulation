@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.000295] (walking_neural_controller_sim) JobQueued: {'identifier': 'walking_neural_controller_sim', 'dependencies': OrderedDict()}
+[0.001077] (walking_neural_controller_sim) JobStarted: {'identifier': 'walking_neural_controller_sim'}
+[0.013145] (walking_neural_controller_sim) JobProgress: {'identifier': 'walking_neural_controller_sim', 'progress': 'cmake'}
+[0.013856] (walking_neural_controller_sim) JobProgress: {'identifier': 'walking_neural_controller_sim', 'progress': 'build'}
+[0.014587] (walking_neural_controller_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim', '--', '-j22', '-l22'], 'cwd': '/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'binggwong', 'GIO_MODULE_DIR': '/home/binggwong/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/binggwong', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/binggwong/workspace', 'TERM_PROGRAM_VERSION': '1.92.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/167/usr/lib/x86_64-linux-gnu/gtk-3.0', 'GTK_IM_MODULE_FILE': '/home/binggwong/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/167/usr/share/code/code', 'MANAGERPID': '2645', 'SYSTEMD_EXEC_PID': '3096', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '35171', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'binggwong', 'JOURNAL_STREAM': '8:31999', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'binggwong', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/binggwong-Yoga-Pro-9-16IMH9:@/tmp/.ICE-unix/3065,unix/binggwong-Yoga-Pro-9-16IMH9:/tmp/.ICE-unix/3065', 'GTK_EXE_PREFIX': '/snap/code/167/usr', 'INVOCATION_ID': '68ec7a17447a4dd793246d8821ca5281', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LOCPATH': '/snap/code/167/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-156a0f844c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/binggwong/snap/code/167/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/binggwong/snap/code/167/.local/share:/home/binggwong/snap/code/167:/snap/code/167/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100121] (-) TimerEvent: {}
+[0.135056] (walking_neural_controller_sim) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/db_beta_controller_sim.dir/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp.o\x1b[0m\n'}
+[0.200238] (-) TimerEvent: {}
+[0.300548] (-) TimerEvent: {}
+[0.400922] (-) TimerEvent: {}
+[0.501325] (-) TimerEvent: {}
+[0.601670] (-) TimerEvent: {}
+[0.701996] (-) TimerEvent: {}
+[0.802384] (-) TimerEvent: {}
+[0.902718] (-) TimerEvent: {}
+[1.003035] (-) TimerEvent: {}
+[1.103364] (-) TimerEvent: {}
+[1.203695] (-) TimerEvent: {}
+[1.304024] (-) TimerEvent: {}
+[1.404361] (-) TimerEvent: {}
+[1.504710] (-) TimerEvent: {}
+[1.568256] (walking_neural_controller_sim) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:5\x1b[m\x1b[K:\n'}
+[1.568535] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.h:120:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Joy_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.568640] (walking_neural_controller_sim) StderrLine: {'line': b'  120 |     void joyCallback(const sensor_msgs::msg::Joy::ConstPtr& joy\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.568760] (walking_neural_controller_sim) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.568865] (walking_neural_controller_sim) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/joy.hpp:7\x1b[m\x1b[K,\n'}
+[1.568976] (walking_neural_controller_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.h:23\x1b[m\x1b[K:\n'}
+[1.569060] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp:123:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.569145] (walking_neural_controller_sim) StderrLine: {'line': b'  123 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[1.569227] (walking_neural_controller_sim) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.581071] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KsimRos2Class::\x1b[01;32m\x1b[KsimRos2Class\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.581268] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:39:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[K_argc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.581366] (walking_neural_controller_sim) StderrLine: {'line': b'   39 |     int \x1b[01;35m\x1b[K_argc\x1b[m\x1b[K = 0;\n'}
+[1.581727] (walking_neural_controller_sim) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.581839] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:40:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[K_argv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.581943] (walking_neural_controller_sim) StderrLine: {'line': b'   40 |     char** \x1b[01;35m\x1b[K_argv\x1b[m\x1b[K = NULL;\n'}
+[1.582022] (walking_neural_controller_sim) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.582095] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:7:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.582172] (walking_neural_controller_sim) StderrLine: {'line': b'    7 | simRos2Class::simRos2Class(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K, char *argv[])\n'}
+[1.582258] (walking_neural_controller_sim) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[1.582328] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:7:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.582404] (walking_neural_controller_sim) StderrLine: {'line': b'    7 | simRos2Class::simRos2Class(int argc, \x1b[01;35m\x1b[Kchar *argv[]\x1b[m\x1b[K)\n'}
+[1.582712] (walking_neural_controller_sim) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.582864] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.582966] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:142:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Joy_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.583054] (walking_neural_controller_sim) StderrLine: {'line': b'  142 | void simRos2Class::joyCallback(const sensor_msgs::msg::Joy::ConstPtr& joy\x1b[01;35m\x1b[K)\x1b[m\x1b[K{\n'}
+[1.583132] (walking_neural_controller_sim) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.583205] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp:123:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.583283] (walking_neural_controller_sim) StderrLine: {'line': b'  123 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[1.583352] (walking_neural_controller_sim) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.584163] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid simRos2Class::\x1b[01;32m\x1b[Kplot\x1b[m\x1b[K(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.584331] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:172:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.584441] (walking_neural_controller_sim) StderrLine: {'line': b'  172 |     for (int i = 0; \x1b[01;35m\x1b[Ki <= data.size()\x1b[m\x1b[K; ++i){\n'}
+[1.584519] (walking_neural_controller_sim) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.584600] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid simRos2Class::\x1b[01;32m\x1b[Kpublish_neuron_activity\x1b[m\x1b[K(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.584704] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:184:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.584795] (walking_neural_controller_sim) StderrLine: {'line': b'  184 |     for (int i = 0; \x1b[01;35m\x1b[Ki < data.size()\x1b[m\x1b[K; ++i)\n'}
+[1.584874] (walking_neural_controller_sim) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.584946] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid simRos2Class::\x1b[01;32m\x1b[Kpublish_C_matrix\x1b[m\x1b[K(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.585022] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:194:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.585103] (walking_neural_controller_sim) StderrLine: {'line': b'  194 |     for (int i = 0; \x1b[01;35m\x1b[Ki < data.size()\x1b[m\x1b[K; ++i)\n'}
+[1.585176] (walking_neural_controller_sim) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.585459] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid simRos2Class::\x1b[01;32m\x1b[Kpublish_norm_bias\x1b[m\x1b[K(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.585616] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:205:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.585734] (walking_neural_controller_sim) StderrLine: {'line': b'  205 |     for (int i = 0; \x1b[01;35m\x1b[Ki < data.size()\x1b[m\x1b[K; ++i)\n'}
+[1.585812] (walking_neural_controller_sim) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.585888] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid simRos2Class::\x1b[01;32m\x1b[Kpublish_norm_gain\x1b[m\x1b[K(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.585968] (walking_neural_controller_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.cpp:215:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.586052] (walking_neural_controller_sim) StderrLine: {'line': b'  215 |     for (int i = 0; \x1b[01;35m\x1b[Ki < data.size()\x1b[m\x1b[K; ++i)\n'}
+[1.586122] (walking_neural_controller_sim) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.604867] (-) TimerEvent: {}
+[1.705235] (-) TimerEvent: {}
+[1.805659] (-) TimerEvent: {}
+[1.905986] (-) TimerEvent: {}
+[2.006295] (-) TimerEvent: {}
+[2.106609] (-) TimerEvent: {}
+[2.206957] (-) TimerEvent: {}
+[2.307283] (-) TimerEvent: {}
+[2.407621] (-) TimerEvent: {}
+[2.507960] (-) TimerEvent: {}
+[2.608281] (-) TimerEvent: {}
+[2.708607] (-) TimerEvent: {}
+[2.808952] (-) TimerEvent: {}
+[2.909263] (-) TimerEvent: {}
+[3.009564] (-) TimerEvent: {}
+[3.109956] (-) TimerEvent: {}
+[3.210290] (-) TimerEvent: {}
+[3.310622] (-) TimerEvent: {}
+[3.410955] (-) TimerEvent: {}
+[3.511283] (-) TimerEvent: {}
+[3.611600] (-) TimerEvent: {}
+[3.711937] (-) TimerEvent: {}
+[3.812270] (-) TimerEvent: {}
+[3.912594] (-) TimerEvent: {}
+[4.012919] (-) TimerEvent: {}
+[4.113236] (-) TimerEvent: {}
+[4.213584] (-) TimerEvent: {}
+[4.313925] (-) TimerEvent: {}
+[4.414256] (-) TimerEvent: {}
+[4.514584] (-) TimerEvent: {}
+[4.614915] (-) TimerEvent: {}
+[4.715257] (-) TimerEvent: {}
+[4.815587] (-) TimerEvent: {}
+[4.915933] (-) TimerEvent: {}
+[5.016337] (-) TimerEvent: {}
+[5.116733] (-) TimerEvent: {}
+[5.217078] (-) TimerEvent: {}
+[5.317424] (-) TimerEvent: {}
+[5.417773] (-) TimerEvent: {}
+[5.518101] (-) TimerEvent: {}
+[5.618419] (-) TimerEvent: {}
+[5.718743] (-) TimerEvent: {}
+[5.819074] (-) TimerEvent: {}
+[5.919404] (-) TimerEvent: {}
+[6.019747] (-) TimerEvent: {}
+[6.120075] (-) TimerEvent: {}
+[6.220388] (-) TimerEvent: {}
+[6.320706] (-) TimerEvent: {}
+[6.421018] (-) TimerEvent: {}
+[6.521330] (-) TimerEvent: {}
+[6.621642] (-) TimerEvent: {}
+[6.721971] (-) TimerEvent: {}
+[6.822286] (-) TimerEvent: {}
+[6.922603] (-) TimerEvent: {}
+[7.022936] (-) TimerEvent: {}
+[7.123234] (-) TimerEvent: {}
+[7.223595] (-) TimerEvent: {}
+[7.323999] (-) TimerEvent: {}
+[7.424307] (-) TimerEvent: {}
+[7.524632] (-) TimerEvent: {}
+[7.624968] (-) TimerEvent: {}
+[7.725279] (-) TimerEvent: {}
+[7.825595] (-) TimerEvent: {}
+[7.925920] (-) TimerEvent: {}
+[8.026222] (-) TimerEvent: {}
+[8.126515] (-) TimerEvent: {}
+[8.226832] (-) TimerEvent: {}
+[8.327142] (-) TimerEvent: {}
+[8.427446] (-) TimerEvent: {}
+[8.527738] (-) TimerEvent: {}
+[8.628053] (-) TimerEvent: {}
+[8.728352] (-) TimerEvent: {}
+[8.828677] (-) TimerEvent: {}
+[8.928994] (-) TimerEvent: {}
+[9.029349] (-) TimerEvent: {}
+[9.129736] (-) TimerEvent: {}
+[9.230051] (-) TimerEvent: {}
+[9.330374] (-) TimerEvent: {}
+[9.430750] (-) TimerEvent: {}
+[9.531133] (-) TimerEvent: {}
+[9.631438] (-) TimerEvent: {}
+[9.731745] (-) TimerEvent: {}
+[9.832061] (-) TimerEvent: {}
+[9.932360] (-) TimerEvent: {}
+[10.032693] (-) TimerEvent: {}
+[10.133015] (-) TimerEvent: {}
+[10.233369] (-) TimerEvent: {}
+[10.333753] (-) TimerEvent: {}
+[10.434057] (-) TimerEvent: {}
+[10.534392] (-) TimerEvent: {}
+[10.634718] (-) TimerEvent: {}
+[10.735034] (-) TimerEvent: {}
+[10.835351] (-) TimerEvent: {}
+[10.935694] (-) TimerEvent: {}
+[11.036032] (-) TimerEvent: {}
+[11.136364] (-) TimerEvent: {}
+[11.236680] (-) TimerEvent: {}
+[11.336983] (-) TimerEvent: {}
+[11.405598] (walking_neural_controller_sim) StdoutLine: {'line': b'[  8%] \x1b[32m\x1b[1mLinking CXX executable /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/bin/db_beta_controller_sim\x1b[0m\n'}
+[11.437110] (-) TimerEvent: {}
+[11.537461] (-) TimerEvent: {}
+[11.637781] (-) TimerEvent: {}
+[11.738141] (-) TimerEvent: {}
+[11.831066] (walking_neural_controller_sim) StdoutLine: {'line': b'[100%] Built target db_beta_controller_sim\n'}
+[11.838218] (-) TimerEvent: {}
+[11.845069] (walking_neural_controller_sim) CommandEnded: {'returncode': 0}
+[11.933032] (walking_neural_controller_sim) JobProgress: {'identifier': 'walking_neural_controller_sim', 'progress': 'install'}
+[11.938293] (-) TimerEvent: {}
+[11.945398] (walking_neural_controller_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim'], 'cwd': '/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'binggwong', 'GIO_MODULE_DIR': '/home/binggwong/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/binggwong', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/binggwong/workspace', 'TERM_PROGRAM_VERSION': '1.92.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/167/usr/lib/x86_64-linux-gnu/gtk-3.0', 'GTK_IM_MODULE_FILE': '/home/binggwong/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/167/usr/share/code/code', 'MANAGERPID': '2645', 'SYSTEMD_EXEC_PID': '3096', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '35171', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'binggwong', 'JOURNAL_STREAM': '8:31999', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'binggwong', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/binggwong-Yoga-Pro-9-16IMH9:@/tmp/.ICE-unix/3065,unix/binggwong-Yoga-Pro-9-16IMH9:/tmp/.ICE-unix/3065', 'GTK_EXE_PREFIX': '/snap/code/167/usr', 'INVOCATION_ID': '68ec7a17447a4dd793246d8821ca5281', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LOCPATH': '/snap/code/167/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-156a0f844c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/binggwong/snap/code/167/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/binggwong/snap/code/167/.local/share:/home/binggwong/snap/code/167:/snap/code/167/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.951682] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.951937] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Installing: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/lib/walking_neural_controller_sim/db_beta_controller_sim\n'}
+[11.966515] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/lib/walking_neural_controller_sim/db_beta_controller_sim" to ""\n'}
+[11.966790] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/launch\n'}
+[11.966899] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/launch/walking_neural_control_sim.launch\n'}
+[11.966986] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/ament_index/resource_index/package_run_dependencies/walking_neural_controller_sim\n'}
+[11.967069] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/ament_index/resource_index/parent_prefix_path/walking_neural_controller_sim\n'}
+[11.967149] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/environment/ament_prefix_path.sh\n'}
+[11.967229] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/environment/ament_prefix_path.dsv\n'}
+[11.967331] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/environment/path.sh\n'}
+[11.967409] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/environment/path.dsv\n'}
+[11.967482] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/local_setup.bash\n'}
+[11.967554] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/local_setup.sh\n'}
+[11.967627] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/local_setup.zsh\n'}
+[11.967707] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/local_setup.dsv\n'}
+[11.969044] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Installing: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/package.dsv\n'}
+[11.969203] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/ament_index/resource_index/packages/walking_neural_controller_sim\n'}
+[11.969350] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/cmake/walking_neural_controller_simConfig.cmake\n'}
+[11.969459] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/cmake/walking_neural_controller_simConfig-version.cmake\n'}
+[11.969592] (walking_neural_controller_sim) StdoutLine: {'line': b'-- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/package.xml\n'}
+[11.969716] (walking_neural_controller_sim) CommandEnded: {'returncode': 0}
+[12.038410] (-) TimerEvent: {}
+[12.111998] (walking_neural_controller_sim) JobEnded: {'identifier': 'walking_neural_controller_sim', 'rc': 0}
+[12.113311] (-) EventReactorShutdown: {}

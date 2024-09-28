@@ -1,0 +1,226 @@
+[0.013s] Invoking command in '/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim -- -j22 -l22
+[0.150s] [  4%] [32mBuilding CXX object CMakeFiles/db_beta_controller_sim.dir/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp.o[0m
+[0.153s] [  8%] [32mBuilding CXX object CMakeFiles/db_beta_controller_sim.dir/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/main_dbalpha_controller.cpp.o[0m
+[1.615s] In file included from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.h:17[m[K,
+[1.616s]                  from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/main_dbalpha_controller.cpp:6[m[K:
+[1.616s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.h:120:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Joy_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.616s]   120 |     void joyCallback(const sensor_msgs::msg::Joy::ConstPtr& joy[01;35m[K)[m[K;
+[1.616s]       |                                                                [01;35m[K^[m[K
+[1.616s] In file included from [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/joy.hpp:7[m[K,
+[1.616s]                  from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.h:23[m[K:
+[1.616s] [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp:123:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.616s]   123 |     [01;36m[KConstPtr[m[K;
+[1.616s]       |     [01;36m[K^~~~~~~~[m[K
+[1.617s] In file included from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:28[m[K,
+[1.617s]                  from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/utils/dln.h:4[m[K,
+[1.617s]                  from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.h:18[m[K:
+[1.617s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/transferfunction.h:[m[K In member function ‘[01m[Kvirtual double LinearFunction::[01;32m[Kderivative[m[K(const double&) const[m[K’:
+[1.618s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/transferfunction.h:114:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.618s]   114 |     inline double derivative([01;35m[Kconst double& x[m[K) const {
+[1.618s]       |                              [01;35m[K~~~~~~~~~~~~~~^[m[K
+[1.618s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/transferfunction.h:[m[K In member function ‘[01m[Kvirtual double LinearThresholdFunction::[01;32m[Kderivative[m[K(const double&) const[m[K’:
+[1.618s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/transferfunction.h:140:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.618s]   140 |     inline double derivative([01;35m[Kconst double& x[m[K) const {
+[1.618s]       |                              [01;35m[K~~~~~~~~~~~~~~^[m[K
+[1.619s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:[m[K At global scope:
+[1.619s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:101:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.619s]   101 |     [01;35m[Kconst[m[K double dw(const int& post, const int& pre);
+[1.619s]       |     [01;35m[K^~~~~[m[K
+[1.619s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:191:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.619s]   191 |     [01;35m[Kconst[m[K double getDeltaWeight(const int& post, const int& pre) const;
+[1.619s]       |     [01;35m[K^~~~~[m[K
+[1.619s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:204:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.620s]   204 |     [01;35m[Kconst[m[K double getDeltaWeight(Neuron const * post, Neuron const * pre) const;
+[1.620s]       |     [01;35m[K^~~~~[m[K
+[1.620s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:386:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.620s]   386 |     [01;35m[Kconst[m[K double getWeight(const int& post, const int& pre) const;
+[1.620s]       |     [01;35m[K^~~~~[m[K
+[1.620s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:399:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.620s]   399 |     [01;35m[Kconst[m[K double getWeight(Neuron const * post, Neuron const * pre) const;
+[1.620s]       |     [01;35m[K^~~~~[m[K
+[1.620s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:406:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.620s]   406 |     static [01;35m[KLinearFunction[m[K const * const identityFunction();
+[1.620s]       |            [01;35m[K^~~~~~~~~~~~~~[m[K
+[1.620s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:413:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.620s]   413 |     static [01;35m[KLinearThresholdFunction[m[K const * const linthresholdFunction();
+[1.621s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.621s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:420:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.621s]   420 |     static [01;35m[KLogisticFunction[m[K const * const logisticFunction();
+[1.621s]       |            [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[1.621s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:720:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.621s]   720 |     static [01;35m[KSignFunction[m[K const * const signFunction();
+[1.621s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[1.621s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:738:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.621s]   738 |     static [01;35m[KTanhFunction[m[K const * const tanhFunction();
+[1.621s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[1.621s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:745:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.621s]   745 |     static [01;35m[KThresholdFunction[m[K const * const thresholdFunction();
+[1.621s]       |            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[1.621s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:888:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.621s]   888 |     [01;35m[Kconst[m[K double w(const int& post, const int& pre);
+[1.622s]       |     [01;35m[K^~~~~[m[K
+[1.627s] In file included from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/./dbModularController.h:19[m[K,
+[1.627s]                  from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.h:26[m[K:
+[1.627s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/./utils/grabcpg.h:82:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.627s]    82 |     [01;35m[Kconst[m[K double getFrequency() const;
+[1.627s]       |     [01;35m[K^~~~~[m[K
+[1.627s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/./utils/grabcpg.h:101:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.627s]   101 |     [01;35m[Kconst[m[K double getPhi(const double& afrequency) const;
+[1.627s]       |     [01;35m[K^~~~~[m[K
+[1.628s] In file included from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/./dbModularController.h:21[m[K:
+[1.628s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-library/so2cpg.h:82:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.628s]    82 |     [01;35m[Kconst[m[K double getFrequency() const;
+[1.628s]       |     [01;35m[K^~~~~[m[K
+[1.628s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-library/so2cpg.h:101:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.628s]   101 |     [01;35m[Kconst[m[K double getPhi(const double& afrequency) const;
+[1.628s]       |     [01;35m[K^~~~~[m[K
+[1.632s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.h:317:86:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.632s]   317 |                         std::vector<float> sw_switch_fac = {1.0,1.0,1.0,1.0,1.0,1.0};[01;35m[K;[m[K
+[1.632s]       |                                                                                      [01;35m[K^[m[K
+[1.633s]       |                                                                                      [31m[K-[m[K
+[1.644s] In file included from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.h:17[m[K,
+[1.644s]                  from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:5[m[K:
+[1.644s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.h:120:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Joy_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.645s]   120 |     void joyCallback(const sensor_msgs::msg::Joy::ConstPtr& joy[01;35m[K)[m[K;
+[1.645s]       |                                                                [01;35m[K^[m[K
+[1.645s] In file included from [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/joy.hpp:7[m[K,
+[1.645s]                  from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/simRos2Class.h:23[m[K:
+[1.645s] [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp:123:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.645s]   123 |     [01;36m[KConstPtr[m[K;
+[1.645s]       |     [01;36m[K^~~~~~~~[m[K
+[1.646s] In file included from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:28[m[K,
+[1.646s]                  from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/utils/dln.h:4[m[K,
+[1.646s]                  from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.h:18[m[K:
+[1.647s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/transferfunction.h:[m[K In member function ‘[01m[Kvirtual double LinearFunction::[01;32m[Kderivative[m[K(const double&) const[m[K’:
+[1.647s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/transferfunction.h:114:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.647s]   114 |     inline double derivative([01;35m[Kconst double& x[m[K) const {
+[1.647s]       |                              [01;35m[K~~~~~~~~~~~~~~^[m[K
+[1.647s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/transferfunction.h:[m[K In member function ‘[01m[Kvirtual double LinearThresholdFunction::[01;32m[Kderivative[m[K(const double&) const[m[K’:
+[1.647s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/transferfunction.h:140:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.647s]   140 |     inline double derivative([01;35m[Kconst double& x[m[K) const {
+[1.647s]       |                              [01;35m[K~~~~~~~~~~~~~~^[m[K
+[1.648s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:[m[K At global scope:
+[1.648s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:101:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.648s]   101 |     [01;35m[Kconst[m[K double dw(const int& post, const int& pre);
+[1.648s]       |     [01;35m[K^~~~~[m[K
+[1.648s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:191:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.648s]   191 |     [01;35m[Kconst[m[K double getDeltaWeight(const int& post, const int& pre) const;
+[1.648s]       |     [01;35m[K^~~~~[m[K
+[1.648s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:204:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.648s]   204 |     [01;35m[Kconst[m[K double getDeltaWeight(Neuron const * post, Neuron const * pre) const;
+[1.648s]       |     [01;35m[K^~~~~[m[K
+[1.648s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:386:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.649s]   386 |     [01;35m[Kconst[m[K double getWeight(const int& post, const int& pre) const;
+[1.649s]       |     [01;35m[K^~~~~[m[K
+[1.649s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:399:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.649s]   399 |     [01;35m[Kconst[m[K double getWeight(Neuron const * post, Neuron const * pre) const;
+[1.649s]       |     [01;35m[K^~~~~[m[K
+[1.649s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:406:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.649s]   406 |     static [01;35m[KLinearFunction[m[K const * const identityFunction();
+[1.649s]       |            [01;35m[K^~~~~~~~~~~~~~[m[K
+[1.649s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:413:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.649s]   413 |     static [01;35m[KLinearThresholdFunction[m[K const * const linthresholdFunction();
+[1.649s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.649s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:420:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.649s]   420 |     static [01;35m[KLogisticFunction[m[K const * const logisticFunction();
+[1.649s]       |            [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[1.650s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:720:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.650s]   720 |     static [01;35m[KSignFunction[m[K const * const signFunction();
+[1.650s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[1.650s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:738:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.650s]   738 |     static [01;35m[KTanhFunction[m[K const * const tanhFunction();
+[1.650s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[1.650s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:745:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.650s]   745 |     static [01;35m[KThresholdFunction[m[K const * const thresholdFunction();
+[1.650s]       |            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[1.650s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-framework/ann.h:888:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.650s]   888 |     [01;35m[Kconst[m[K double w(const int& post, const int& pre);
+[1.650s]       |     [01;35m[K^~~~~[m[K
+[1.656s] In file included from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/./dbModularController.h:19[m[K,
+[1.656s]                  from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.h:26[m[K:
+[1.656s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/./utils/grabcpg.h:82:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.656s]    82 |     [01;35m[Kconst[m[K double getFrequency() const;
+[1.657s]       |     [01;35m[K^~~~~[m[K
+[1.657s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/./utils/grabcpg.h:101:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.657s]   101 |     [01;35m[Kconst[m[K double getPhi(const double& afrequency) const;
+[1.657s]       |     [01;35m[K^~~~~[m[K
+[1.657s] In file included from [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/./dbModularController.h:21[m[K:
+[1.657s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-library/so2cpg.h:82:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.657s]    82 |     [01;35m[Kconst[m[K double getFrequency() const;
+[1.657s]       |     [01;35m[K^~~~~[m[K
+[1.657s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/../../../../../../../utils/ann-library/so2cpg.h:101:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.657s]   101 |     [01;35m[Kconst[m[K double getPhi(const double& afrequency) const;
+[1.657s]       |     [01;35m[K^~~~~[m[K
+[1.662s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.h:317:86:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.662s]   317 |                         std::vector<float> sw_switch_fac = {1.0,1.0,1.0,1.0,1.0,1.0};[01;35m[K;[m[K
+[1.662s]       |                                                                                      [01;35m[K^[m[K
+[1.662s]       |                                                                                      [31m[K-[m[K
+[1.683s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:[m[K In member function ‘[01m[Kbool dungBeetleController::[01;32m[KrunController[m[K()[m[K’:
+[1.684s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:1368:47:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.684s]  1368 |                                 for (int i=0;[01;35m[Ki<current_positions.size()[m[K;i++){
+[1.684s]       |                                              [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.684s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:988:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbk[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.684s]   988 |                 float [01;35m[Kbk[m[K = -1;
+[1.684s]       |                       [01;35m[K^~[m[K
+[1.685s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:165:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kerror[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.685s]   165 |         float [01;35m[Kerror[m[K;
+[1.685s]       |               [01;35m[K^~~~~[m[K
+[1.689s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:[m[K In member function ‘[01m[Kbool dungBeetleController::[01;32m[KactuateStand[m[K()[m[K’:
+[1.689s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:1763:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[1.689s]  1763 | [01;35m[K}[m[K
+[1.689s]       | [01;35m[K^[m[K
+[1.689s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:[m[K In member function ‘[01m[Kbool dungBeetleController::[01;32m[KactuateJump[m[K()[m[K’:
+[1.690s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:1767:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[1.690s]  1767 | [01;35m[K}[m[K
+[1.690s]       | [01;35m[K^[m[K
+[1.690s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:[m[K In member function ‘[01m[Kbool dungBeetleController::[01;32m[KactuateGallop[m[K()[m[K’:
+[1.690s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:1771:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[1.690s]  1771 | [01;35m[K}[m[K
+[1.690s]       | [01;35m[K^[m[K
+[1.690s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:[m[K In member function ‘[01m[Kbool dungBeetleController::[01;32m[KactuateBackFlip[m[K()[m[K’:
+[1.691s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:1775:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[1.691s]  1775 | [01;35m[K}[m[K
+[1.691s]       | [01;35m[K^[m[K
+[1.691s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:[m[K In member function ‘[01m[Kchar dungBeetleController::[01;32m[Kgetch[m[K()[m[K’:
+[1.691s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:1799:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_oflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.691s]  1799 |     struct termios old = {0[01;35m[K}[m[K;
+[1.691s]       |                            [01;35m[K^[m[K
+[1.691s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:1799:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_cflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.691s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:1799:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_lflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.691s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:1799:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_line[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.691s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:1799:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_cc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.691s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:1799:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_ispeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.691s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:1799:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_ospeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.692s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:[m[K In member function ‘[01m[Kvoid dungBeetleController::[01;32m[KsetWeights1on1[m[K(std::vector<int>, std::vector<int>, std::vector<float>)[m[K’:
+[1.693s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:1835:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.693s]  1835 |         for(int count=0; [01;35m[Kcount< i.size()[m[K; count++){
+[1.693s]       |                          [01;35m[K~~~~~^~~~~~~~~~[m[K
+[1.693s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:[m[K In member function ‘[01m[Kvoid dungBeetleController::[01;32m[KsetNeuron_activity[m[K(std::vector<int>, std::vector<float>)[m[K’:
+[1.693s] [01m[K/home/binggwong/workspace/CPG-ROC_BallRolling/controllers/db_alpha/walking_neural_control/sim/dbalpha_controller.cpp:1841:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.693s]  1841 |         for(int count=0; [01;35m[Kcount< neurons.size()[m[K; count++){
+[1.693s]       |                          [01;35m[K~~~~~^~~~~~~~~~~~~~~~[m[K
+[2.554s] [ 12%] [32m[1mLinking CXX executable /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/src/walking_neural_controller_sim/bin/db_beta_controller_sim[0m
+[2.961s] [100%] Built target db_beta_controller_sim
+[2.972s] Invoked command in '/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim -- -j22 -l22
+[3.068s] Invoking command in '/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim
+[3.075s] -- Install configuration: ""
+[3.075s] -- Installing: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/lib/walking_neural_controller_sim/db_beta_controller_sim
+[3.090s] -- Set non-toolchain portion of runtime path of "/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/lib/walking_neural_controller_sim/db_beta_controller_sim" to ""
+[3.091s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/launch
+[3.091s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/launch/walking_neural_control_sim.launch
+[3.091s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/ament_index/resource_index/package_run_dependencies/walking_neural_controller_sim
+[3.092s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/ament_index/resource_index/parent_prefix_path/walking_neural_controller_sim
+[3.092s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/environment/ament_prefix_path.sh
+[3.092s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/environment/ament_prefix_path.dsv
+[3.092s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/environment/path.sh
+[3.093s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/environment/path.dsv
+[3.093s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/local_setup.bash
+[3.093s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/local_setup.sh
+[3.093s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/local_setup.zsh
+[3.094s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/local_setup.dsv
+[3.094s] -- Installing: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/package.dsv
+[3.094s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/ament_index/resource_index/packages/walking_neural_controller_sim
+[3.094s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/cmake/walking_neural_controller_simConfig.cmake
+[3.094s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/cmake/walking_neural_controller_simConfig-version.cmake
+[3.094s] -- Up-to-date: /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/install/walking_neural_controller_sim/share/walking_neural_controller_sim/package.xml
+[3.095s] Invoked command in '/home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/binggwong/workspace/CPG-ROC_BallRolling/projects/db_alpha/walking_neural_control/sim/ros2_ws/build/walking_neural_controller_sim

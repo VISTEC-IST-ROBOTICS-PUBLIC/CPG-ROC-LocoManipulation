@@ -1,5 +1,5 @@
 # CPG-ROC-Locomanipulation
-CPG-based Loco-manipulation control with robot orientation control of dung beetle-like robot
+CPG-based Loco-manipulation control with robot orientation control of dung beetle-like robot and quadruped robot.
 
 - In order to run the simulation, it's required to have ROS2, CoppeliaSim.
 - The code is written in C++.
